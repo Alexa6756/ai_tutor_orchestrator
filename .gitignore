@@ -42,3 +42,4 @@ pytest_cache/
 
 *.log
 .env
+.env
