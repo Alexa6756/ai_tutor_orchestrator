@@ -102,7 +102,7 @@ ai_tutor_orchestrator/
 │   ├── state_postgres.py           # Postgres-based state manager
 │   ├── llm_helpers.py              # Prompt and inference stubs
 │   ├── agents.py                   # Tool agent logic
-│   ├── db.py                       # Database handling (SQLite / Postgres)
+│   ├── db.py                       # Database handling (Postgres)
 │   ├── utils.py                    # Common helpers
 │   │
 │   ├── adapters/                   # Mock tool connectors
@@ -199,3 +199,4 @@ pytest -v
 ✅ Foundation for adaptive AI learning systems
 
 ---
+
