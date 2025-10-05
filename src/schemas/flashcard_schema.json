@@ -1,0 +1,12 @@
+{
+  "type":"object",
+  "required":["user_info","topic","count","difficulty","subject"],
+  "properties":{
+    "user_info":{"type":"object"},
+    "topic":{"type":"string"},
+    "count":{"type":"integer","minimum":1,"maximum":20},
+    "difficulty":{"type":"string","enum":["easy","medium","hard"]},
+    "include_examples":{"type":"boolean"},
+    "subject":{"type":"string"}
+  }
+}

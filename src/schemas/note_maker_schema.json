@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "required": ["user_info", "chat_history", "topic", "subject", "note_taking_style"],
+  "properties": {
+    "user_info": {
+      "type": "object"
+    },
+    "chat_history": {
+      "type": "array"
+    },
+    "topic": {"type":"string"},
+    "subject": {"type":"string"},
+    "note_taking_style": {"type":"string", "enum":["outline","bullet_points","narrative","structured"]},
+    "include_examples": {"type":"boolean"},
+    "include_analogies": {"type":"boolean"}
+  }
+}

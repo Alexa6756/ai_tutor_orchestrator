@@ -1,0 +1,11 @@
+{
+  "type":"object",
+  "required":["user_info","chat_history","concept_to_explain","current_topic","desired_depth"],
+  "properties":{
+    "user_info":{"type":"object"},
+    "chat_history":{"type":"array"},
+    "concept_to_explain":{"type":"string"},
+    "current_topic":{"type":"string"},
+    "desired_depth":{"type":"string","enum":["basic","intermediate","advanced","comprehensive"]}
+  }
+}
