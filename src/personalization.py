@@ -4,7 +4,7 @@ def adjust_for_mastery(tool_name: str, payload: Dict, mastery_level: int) -> Dic
     try:
         mastery_level = int(mastery_level)
     except (ValueError, TypeError):
-        # Default to medium mastery if conversion fails
+        
         mastery_level = 3
     """
     Dynamically adapts tool parameters based on mastery level.
