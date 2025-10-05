@@ -193,10 +193,11 @@ pytest -v
 
 ## 🧾 Result & Impact
 
-✅ Autonomous multi-tool AI tutoring layer
-✅ Personalized by emotion & mastery
-✅ Easily scalable for 80+ educational tools
-✅ Foundation for adaptive AI learning systems
+✅ Autonomous multi-tool AI tutoring layer <br>
+✅ Personalized by emotion & mastery <br>
+✅ Easily scalable for 80+ educational tools <br>
+✅ Foundation for adaptive AI learning systems <br>
 
 ---
+
 
